@@ -26,6 +26,12 @@
         },
         {
             "name": "accstorefront",
+            "properties": [
+                {
+                    "key": "java.mem",
+                    "value": "6.5G"
+                }
+            ],            
             "webapps": [
                 {
                     "name": "mediaweb",
