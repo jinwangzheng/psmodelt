@@ -71,14 +71,12 @@
       "modeltacceleratorservices",
       "azurecloudhotfolder"
     ],
-    
     "properties": [
         {
             "key": "jin",
             "value": "wangzheng"
         },
-        
-        { "key": "brook", "value" : "jin"} ,
+        { "key": "brook", "value" : "jin"} 
     ],
          "aspects": [
         {
