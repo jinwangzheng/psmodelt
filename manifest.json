@@ -78,6 +78,13 @@
         },
         { "key": "brook", "value" : "jin"} 
     ],
+    "useConfig" : {
+      "properties": [
+          {
+            "location": "foo/my.properties"
+          }
+        ]
+    },
          "aspects": [
         {
             "name": "backoffice",
