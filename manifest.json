@@ -86,6 +86,24 @@
         ]
     },
          "aspects": [
+                {
+            "name": "backoffice2",
+            "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "backoffice",
+                    "contextPath": ""
+                }
+            ]
+        },
+             
         {
             "name": "backoffice",
             "webapps": [
