@@ -79,6 +79,9 @@
         { "key": "brook", "value" : "jin"} 
     ],
     "useConfig" : {
+        "solr": {
+            "location": "travelstore/solr"
+        },
       "properties": [
           {
             "location": "foo/my.properties"
