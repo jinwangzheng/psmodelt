@@ -80,7 +80,7 @@
     ],
     "useConfig" : {
         "solr": {
-            "location": "travelstore/solr"
+            "location": "brook/solr"
         },
       "properties": [
           {
