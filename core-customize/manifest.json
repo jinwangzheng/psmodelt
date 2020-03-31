@@ -79,14 +79,14 @@
         { "key": "brook", "value" : "jin"} 
     ],
     "useConfig" : {
-        "solr": {
-            "location": "brook/solr"
-        },
       "properties": [
           {
             "location": "foo/my.properties"
           }
-        ]
+        ],
+      "solr": {
+            "location": "brook/solr"
+      }
     },
          "aspects": [
              
