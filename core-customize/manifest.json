@@ -85,7 +85,7 @@
           }
         ],
       "solr": {
-            "location": "brook/solr"
+            "location": "brook"
       }
     },
          "aspects": [
