@@ -1,5 +1,5 @@
 { 
-    "commerceSuiteVersion": "1811.14",
+    "commerceSuiteVersion": "1808.20",
     "extensions": [
      "mcc",
       "adaptivesearchsolr",
@@ -72,16 +72,6 @@
       "azurecloudhotfolder"
     ],
     "properties": [
-      {
-         "key": "solr.config.Default.mode",
-         "value": "standalone",
-         "persona": "development"
-      },
-      {
-         "key": "solr.config.Default.urls",
-         "value": "http://solr-master-0.solr:8983/solr,http://solr-0.solr:8983/solr,http://solr-1.solr:8983/solr",
-         "persona": "development"
-      },        
         {
             "key": "jin",
             "value": "wangzheng"
