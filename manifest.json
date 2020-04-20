@@ -1,7 +1,6 @@
 { 
     "commerceSuiteVersion": "1905.8",
     "extensions": [
-     "mcc",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
