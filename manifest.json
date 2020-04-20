@@ -1,5 +1,5 @@
 { 
-    "commerceSuiteVersion": "1905.8",
+    "commerceSuiteVersion": "1905",
     "extensions": [
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
@@ -68,9 +68,7 @@
       "configurablebundleaddon",
       "consignmenttrackingoccaddon",
       "modeltacceleratorservices",
-      "azurecloudhotfolder",
-        "cloudcommons"
-
+      "azurecloudhotfolder"
     ],
     "properties": [
         {
