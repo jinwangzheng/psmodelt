@@ -1,5 +1,5 @@
 { 
-    "commerceSuiteVersion": "1811.0",
+    "commerceSuiteVersion": "1905.8",
     "extensions": [
      "mcc",
       "adaptivesearchsolr",
@@ -68,7 +68,9 @@
       "configurablebundlecockpits",
       "configurablebundleaddon",
       "consignmenttrackingoccaddon",
-      "modeltacceleratorservices"
+      "modeltacceleratorservices",
+      "azurecloudhotfolder"
+
     ],
     "properties": [
         {
