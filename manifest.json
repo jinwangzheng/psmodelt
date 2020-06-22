@@ -143,6 +143,10 @@
                     "name": "hac",
                     "contextPath": ""
                 },
+{
+"name": "backoffice",
+"contextPath": "/backoffice"
+},
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
