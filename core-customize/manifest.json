@@ -69,7 +69,8 @@
       "configurablebundleaddon",
       "consignmenttrackingoccaddon",
       "modeltacceleratorservices",
-      "azurecloudhotfolder"
+      "azurecloudhotfolder",
+      "datahubbackoffice"
     ],
     "properties": [
         {
