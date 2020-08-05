@@ -1,7 +1,7 @@
 { 
-    "commerceSuiteVersion": "1905.12",
+    "commerceSuiteVersion": "1905",
+    "useCloudExtensionPack":true,
     "extensions": [
-     "mcc",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
@@ -80,14 +80,14 @@
         { "key": "brook", "value" : "jin"} 
     ],
     "useConfig" : {
+        "solr": {
+            "location": "brook/solr"
+        },
       "properties": [
           {
             "location": "foo/my.properties"
           }
-        ],
-      "solr": {
-            "location": "brook"
-      }
+        ]
     },
          "aspects": [
              
@@ -144,6 +144,10 @@
                     "name": "hac",
                     "contextPath": ""
                 },
+{
+"name": "backoffice",
+"contextPath": "/backoffice"
+},
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
