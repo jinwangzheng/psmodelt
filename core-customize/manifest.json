@@ -81,7 +81,7 @@
     ],
     "useConfig" : {
         "solr": {
-            "location": "brook/solr"
+            "location": "brook"
         },
       "properties": [
           {
