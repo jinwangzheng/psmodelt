@@ -104,7 +104,26 @@
                 {
                     "name": "backoffice",
                     "contextPath": ""
-                }
+                },
+                {
+                 "name": "smartedit",
+                 "contextPath": "/smartedit"
+                 },
+
+                 {
+                 "name": "cmssmartedit",
+                 "contextPath": "/cmssmartedit"
+                 },
+
+                 {
+                 "name": "smarteditwebservices",
+                 "contextPath": "/smarteditwebservices"
+                 },
+
+                 {
+                 "name": "cmssmarteditwebservices",
+                 "contextPath": "/cmssmarteditwebservices"
+                 }
             ]
         },
         {
