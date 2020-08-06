@@ -1,5 +1,5 @@
 { 
-    "commerceSuiteVersion": "1811.24",
+    "commerceSuiteVersion": "1811.11",
     "extensions": [
      "mcc",
       "adaptivesearchsolr",
