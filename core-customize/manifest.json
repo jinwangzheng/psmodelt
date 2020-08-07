@@ -176,27 +176,6 @@
                     "contextPath": "/medias"
                 }
             ]
-        },
-        {
-            "name": "api",
-            "webapps": [
-                {
-                    "name": "ycommercewebservices",
-                    "contextPath": "/rest"
-                },
-                {
-                    "name": "oauth2",
-                    "contextPath": "/authorizationserver"
-                },
-                {
-                    "name": "cmswebservices",
-                    "contextPath": "/cmswebservices"
-                },
-                {
-                    "name": "permissionswebservices",
-                    "contextPath": "/permissionswebservices"
-                }
-            ]
         }
     ]
 }
