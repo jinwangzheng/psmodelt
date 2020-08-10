@@ -2,7 +2,6 @@
     "commerceSuiteVersion": "1905",
     "extensions": [
         "training",
-     "mcc",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
