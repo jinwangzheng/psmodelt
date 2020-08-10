@@ -1,6 +1,7 @@
 { 
     "commerceSuiteVersion": "1811.24",
     "extensions": [
+        "training",
      "mcc",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
