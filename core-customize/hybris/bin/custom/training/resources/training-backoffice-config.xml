@@ -18,9 +18,9 @@
 	<!--</context>-->
     <context component="global-links" principal="backofficeadministratorrole" merge-by="component">
         <ln:links xmlns:ln="http://www.hybris.com/cockpitng/config/links">
-            <ln:link label="concurbackoffice.link.desc.hac" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-service.svg" target="_blank" url="../hac" position="0"/>
-            <ln:link label="concurbackoffice.link.desc.smartedit" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-marketing.svg" target="_blank" url="../smartedit"/>
-            <ln:link label="concurbackoffice.link.desc.asagentlink" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-commerce.svg" target="_blank"  url="../us/en/asm?asm=true"/>
+            <ln:link label="hac" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-service.svg" target="_blank" url="../hac" position="0"/>
+            <ln:link label="smartedit" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-marketing.svg" target="_blank" url="../smartedit"/>
+            <ln:link label="asagentlink" icon="/widgetClasspathResource/widgets/globalLinks/images/signet-commerce.svg" target="_blank"  url="../us/en/asm?asm=true"/>
         </ln:links>
     </context>
 
