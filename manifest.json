@@ -1,6 +1,9 @@
 {
 	"commerceSuiteVersion": "1905",
 	"extensions": [
+			"electronicsstore",
+		"yacceleratorstorefront",
+		"backoffice"
 	],
 
 	"aspects": [{
