@@ -66,8 +66,7 @@
       "configurablebundlecockpits",
       "configurablebundleaddon",
       "consignmenttrackingoccaddon",
-      "modeltacceleratorservices",
-      "azurecloudhotfolder"
+      "modeltacceleratorservices"
     ],
     "properties": [
         {
