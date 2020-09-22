@@ -1,6 +1,8 @@
 { 
     "commerceSuiteVersion": "1905",
     "extensions": [
+      "samlsinglesignon",
+      "samlssobackoffice",
       "adaptivesearchsolr",
       "adaptivesearchbackoffice",
       "adaptivesearchsamplesaddon",
