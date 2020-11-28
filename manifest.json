@@ -26,6 +26,9 @@
       "accountsummaryaddon",
       "assistedservicestorefront",
       "assistedservicewebservices",
+      "assistedserviceyprofileaddon",
+      "assistedservicecustomerinterestsaddon",
+      "assistedservicepromotionaddon",
       "captchaaddon",
       "customerticketingaddon",
       "customersupportbackoffice",
@@ -209,6 +212,10 @@
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
+                },
+                { 
+                    "name": "samlsinglesignon",
+                    "contextPath": "/samlsinglesignon"
                 }
             ]
         },
