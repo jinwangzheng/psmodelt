@@ -77,6 +77,16 @@
       "samlssobackoffice"
        
     ],
+    
+     "storefrontAddons": [
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        }
+     ],
+            
+            
     "properties": [
         {
             "key": "jin",
