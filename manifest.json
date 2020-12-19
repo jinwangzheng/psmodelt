@@ -241,8 +241,12 @@
                     "value": "integration,yHotfolderCandidate"
                 },
                   {
-                    "key": "task.engine.loadonstartup",
-                    "value": "true"
+                    "key": "task.engine.loadonstartup2",
+                    "value": "true2"
+                },
+                 {
+                    "key": "dontbelieveit",
+                    "value": "flse"
                 }
             ],
             "webapps": [
