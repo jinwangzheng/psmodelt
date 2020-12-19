@@ -247,6 +247,11 @@
                  {
                     "key": "dontbelieveit",
                     "value": "flse"
+                },
+                  {
+                    "key": "task.engine.loadonstartup",
+                    "value": "true",
+                    "persona": "development"          
                 }
             ],
             "webapps": [
