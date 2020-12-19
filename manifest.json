@@ -101,6 +101,10 @@
       "properties": [
           {
             "location": "foo/my.properties"
+          },
+           {
+            "location": "foo/dev-local.properties",
+            "persona": "development"
           }
         ]
     },
@@ -235,6 +239,10 @@
                 {
                     "key": "cluster.node.groups",
                     "value": "integration,yHotfolderCandidate"
+                },
+                  {
+                    "key": "task.engine.loadonstartup",
+                    "value": "true"
                 }
             ],
             "webapps": [
