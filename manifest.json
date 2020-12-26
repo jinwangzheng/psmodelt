@@ -113,10 +113,7 @@
         {
             "name": "backoffice",
         "properties": [  
-                {
-                 "key": "sso.redirect.url",
-                 "value": "https://backoffice.cnx5-sub4for598-d5-public.model-t.cc.commerce.ondemand.com/"
-                },
+         
                 {
                   "key": "sso.metadata.location",
                   "value": "WEB-INF/security/dev-security/metadata.xml"
