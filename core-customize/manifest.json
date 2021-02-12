@@ -1,9 +1,8 @@
 { 
     "commerceSuiteVersion": "1905",
     "useCloudExtensionPack":true,
-    "extensions": {
-            "location": "/hybris/config/localextensions.xml"
-    },
+    "extensions": [
+    ],
     "properties": [
         {
             "key": "jin",
@@ -12,10 +11,14 @@
         { "key": "brook", "value" : "jin"} 
     ],
     "useConfig" : {
+        "extensions": {
+            "location": "/hybris/config/localextensions.xml"
+        },
+
         "solr": {
             "location": "brook"
         },
-      "properties": [
+        "properties": [
           {
             "location": "foo/my.properties"
           }
