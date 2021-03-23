@@ -1,89 +1,12 @@
 { 
-    "commerceSuiteVersion": "6.7.0",
+    "commerceSuiteVersion": "6.7.0.1",
     "extensions": [
-      "samlsinglesignon",
-      "samlssobackoffice",
-      "adaptivesearchsolr",
-      "adaptivesearchbackoffice",
-      "adaptivesearchsamplesaddon",
-      "adaptivesearchwebservices",
-      "solrfacetsearchbackoffice",
-      "yacceleratorcockpits",
-      "yacceleratorbackoffice",
-      "yacceleratorinitialdata",
-      "yacceleratorfulfilmentprocess",
-      "ycommercewebservices",
-      "orderselfserviceaddon",
-      "powertoolsstore",
-      "solrserver",
-      "acceleratorwebservicesaddon",
-      "b2bacceleratoraddon",
-      "commerceorgsamplesaddon",
-      "b2bpunchoutaddon",
-      "secureportaladdon",
-      "savedorderformsoccaddon",
-      "b2boccaddon",
-      "accountsummaryaddon",
-      "assistedservicestorefront",
-      "assistedservicewebservices",
-      "captchaaddon",
-      "customerticketingaddon",
-      "customersupportbackoffice",
-      "rulebuilderbackoffice",
-      "couponbackoffice",
-      "droolsruleengineservices",
-      "couponfacades",
-      "promotionenginesamplesaddon",
-      "textfieldconfiguratortemplatebackoffice",
-      "textfieldconfiguratortemplateaddon",
-      "cmswebservices",
-      "smarteditwebservices",
-      "permissionswebservices",
-      "smarteditaddon",
-      "cmssmartedit",
-      "cmsbackoffice",
-      "previewwebservices",
-      "cmssmarteditwebservices",
-      "cmsoccaddon",
-      "previewpersonalizationweb",
-      "personalizationcmsweb",
-      "personalizationsmartedit",
-      "personalizationpromotionssmartedit",
-      "personalizationsampledataaddon",
-      "personalizationpromotionssampledataaddon",
-      "personalizationpromotions",
-      "personalizationpromotionsweb",
-      "personalizationservicesbackoffice",
-      "personalizationpromotionsbackoffice",
-      "personalizationcmsbackoffice",
-      "personalizationsearchbackoffice",
-      "personalizationsearchsmartedit",
-      "personalizationsearchweb",
-      "personalizationsearchsamplesaddon",
-      "consignmenttrackingaddon",
-      "consignmenttrackingmock",
-      "consignmenttrackingbackoffice",
-      "pcmbackofficesamplesaddon",
-     "yacceleratorstorefront",
-      "configurablebundlecockpits",
-      "configurablebundleaddon",
-      "consignmenttrackingoccaddon",
-      "modeltacceleratorservices"
+        "modeltacceleratorservices",
+        "electronicsstore",
+        "yacceleratorstorefront",
+        "backoffice"
     ],
-    "properties": [
-        {
-            "key": "jin",
-            "value": "wangzheng"
-        },
-        { "key": "brook", "value" : "jin"} 
-    ],
-    "useConfig" : {
-      "properties": [
-      
-        ]
-    },
          "aspects": [
-             
         {
             "name": "backoffice",
             "webapps": [
@@ -103,12 +26,6 @@
         },
         {
             "name": "accstorefront",
-            "properties": [
-                {
-                    "key": "java.mem",
-                    "value": "6.5G"
-                }
-            ],            
             "webapps": [
                 {
                     "name": "mediaweb",
@@ -116,7 +33,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": ""
+                    "contextPath": "/yacceleratorstorefront"
                 },
                 {
                     "name": "acceleratorservices",
@@ -126,12 +43,7 @@
         },
         {
             "name": "backgroundProcessing",
-            "properties": [
-                {
-                    "key": "cluster.node.groups",
-                    "value": "integration,yHotfolderCandidate"
-                }
-            ],
+            "properties": [],
             "webapps": [
                 {
                     "name": "hac",
