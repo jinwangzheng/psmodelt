@@ -4,7 +4,11 @@
 	{
 		"name" : "hybris-commerce-integrations",
 		"version" : "2005.1"
-	}
+	},
+	    {
+  "name" : "azurecloudhotfolder",
+  "version" : "2005"
+ }
 	],
     "extensions": [
       "adaptivesearchsolr",
