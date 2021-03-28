@@ -1,9 +1,9 @@
 { 
-    "commerceSuiteVersion": "2005.2",
+    "commerceSuiteVersion": "2005",
     "extensionPacks" : [
 	{
 		"name" : "hybris-commerce-integrations",
-		"version" : "2005"
+		"version" : "2005.1"
 	}
 	],
     "extensions": [
