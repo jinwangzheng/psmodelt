@@ -115,7 +115,12 @@
                 {
                     "key": "java.mem",
                     "value": "6.5G"
-                }
+                },
+		{
+		   "key":"xss.filter.header.X-Frame-Options",
+		   "value":""
+		}
+		    
             ],            
             "webapps": [
                 {
